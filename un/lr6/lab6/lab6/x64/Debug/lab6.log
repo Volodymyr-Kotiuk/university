@@ -1,0 +1,25 @@
+﻿  lab6.cpp
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244: 'return': conversion from 'T2' to 'T1', possible loss of data
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         with
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         [
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:             T2=double
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         ]
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         and
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         [
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:             T1=int
+C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50): warning C4244:         ]
+  (compiling source file 'lab6.cpp')
+      C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(28,50):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\lab6.cpp(78,60):
+          see reference to class template instantiation 'TemplateClass<int,double,float,long,short>' being compiled
+          C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\template_class.h(27,8):
+          while compiling class template member function 'T1 TemplateClass<T1,double,float,long,short>::sumValues(void) const'
+          with
+          [
+              T1=int
+          ]
+              C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\lab6\lab6.cpp(80,71):
+              see the first reference to 'TemplateClass<int,double,float,long,short>::sumValues' in 'main'
+  
+  lab6.vcxproj -> C:\Users\ovilt\OneDrive\Рабочий стол\lr6\lab6\x64\Debug\lab6.exe
